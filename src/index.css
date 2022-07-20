@@ -1,0 +1,491 @@
+
+
+* { box-sizing: border-box; }
+
+
+body {
+ 
+  /* background-image: url("./img1.jpg"); */
+
+  height: auto;
+  width: auto;
+  /* margin: 0;
+  padding: 20px 0;  */
+}
+/* wrapper {
+  img:hover;
+  
+/* .ma{
+  color="black";
+
+} */ */
+
+h1{
+
+ color: purple;
+}
+
+ul, li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2,p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: 000000;
+  
+}
+
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul.header {
+  /* color: black; */
+    background-color: plum;
+    border-radius: 20px;
+    border-color: #FFF;
+    padding: 0;
+}
+
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.content {
+    padding: 20px;
+    
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.dessad{
+    margin: auto;
+    width: 51%;
+    padding-top: 50px;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+.container {
+  max-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  width: 40%;
+  padding: 25px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  position: relative;
+  cursor: pointer;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  background: violet;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  left: 32.5%;
+}
+
+
+#contact button[type="submit"]:hover {
+  background: purple;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+
+
+
+
+h1 { text-align: center; }
+
+.containerxx {
+	display: flex;
+	margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.pricingCard {
+	border: 1px solid #636363;
+	border-radius: 3px;
+	flex: 1;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+
+.dessad {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+  
+}
+
+.pricingCard{
+  text-align: center;
+}
+.pricingCard h2 { margin-bottom: 0; }
+
+.headerhours{
+
+  font-size: larger;
+  color:red;
+  text-align: center;
+  padding-left: 750px;
+}
+.hours{
+
+  font-size: large;
+  padding-left: 750px;
+}
+
+.title {
+	background: #636363;
+	padding: 20px 25px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 1.7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pricingCard.featured {
+	color: purple;
+	border-color: #01abce;
+	background: white;
+    margin: 40px;
+    height: auto;
+    /* text-align: left; */
+}
+
+.pricingCard.featured .title { 
+	background:plum;
+	color: Black;
+}
+
+.pricingCard.featured .bttn {
+	background: black;
+	color: white;
+  width: 80px;
+  height: 40px;
+  margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 9px;
+ 
+	
+}
+
+
+
+
+.pricingCard .price-overview {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+
+.price .price__currency { font-size: 1.7em; padding-right: 3px; }
+.price .price__dollar { font-size: 1.7em; }
+.price .price__cent { font-size: 1em; }
+
+.card {
+	padding: 10px 25px 20px;
+}
+
+.price-desc { 
+	font-size: 0.7em;
+	margin-top: 0;
+}
+
+.bttn { 
+	display: block; 
+	text-align: center;
+	
+	position: relative;
+	margin: 0 25px;
+	margin-top: auto;
+	
+	background: none;
+	border: 1px solid peru;
+	color: purple;
+	
+	
+}
+.bttn:hover{
+    background: #0091ad;
+}
+
+
+.toggle-container { text-align: center; }
+
+.home_card
+{
+  float: left;
+  /* padding: 20px; */
+  padding-top: 120px;
+  margin-left: 150px;
+  /* margin-top: 0px; */
+  overflow: hidden;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+
+}
+
+.card_image
+{
+  width: 500px;
+  height: 200px;
+  /* object-fit: contain; */
+}
+
+.card_btn
+{
+  margin-left: 200px;
+  margin-top: 40px;
+  width: 80px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+.card_btn:hover
+
+{
+  background-color: purple;
+  color: whitesmoke;
+}
+.wrapper :hover {
+  transform: scale(1.02); 
+}
+.wrapperjob:hover{
+  transform: scale(1.02); 
+}
+.wrapperjob{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(12rem, 17rem));
+  gap: 15rem;
+  justify-content: center;
+  
+}
+.cardjob{
+  overflow: hidden;
+    box-shadow: 2px 4px 4px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    padding: 10px;
+}
+.card_imagej{
+  height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card_titlej {
+  padding: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.card_descriptionj{
+  padding: 0 1rem;
+  text-align: center;
+  text-indent: 3px;
+}
+
+.card_btnj{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+  display: flex;
+  background: rgb(189, 162, 146);
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+ 
+.job_btnj{
+ 
+  padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+.job_btnj:hover{
+  background-color: purple;
+  color: whitesmoke;
+}
+.job li{
+  list-style-type: none; 
+  margin: 10px;
+ 
+  
+  color: black;
+  
+  align-items: center;
+
+}
+.job ul{
+
+  padding: 15px 15px;
+  padding-left: 30px;
+}
+.ab{
+  color: purple;
+}
